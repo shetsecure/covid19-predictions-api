@@ -21,14 +21,14 @@ def home():
 
             <h3> Example </h3>
             <h4>Confirmed cases:</h4>
-                <p>/api/v1/predict/confirmed?name=france</p>
+                <p>/api/v1/predict/confirmed?country=france</p>
                 <p>or </p>
-                <p>/api/v1/predict/confirmed?name=fr&days=3</p>
+                <p>/api/v1/predict/confirmed?country=fr&days=3</p>
 
             </h4>Deaths:</h4>
-                <p>/api/v1/predict/deaths?name=france</p>
+                <p>/api/v1/predict/deaths?country=france</p>
                 <p>or </p>
-                <p>/api/v1/predict/deaths?name=FR&days=3</p>
+                <p>/api/v1/predict/deaths?country=FR&days=3</p>
 
 '''
 
